@@ -2,3 +2,4 @@
 *.fa*
 __pycahce__
 .DS_Store
+*.gtf

@@ -1,0 +1,9 @@
+## Reserved variables
+sample_id = to get sample id from fastq/fasta/input file / pairs
+projectDir = to get project directory or the directory where the script is running
+task = to get the task properties (task.cpus, task.memory)
+
+
+## Configuring Nextflow vs Configuring Nextflow Workflow
+parameters with single - are Nextflow parameters
+parameters with double -- are Nextflow Workflow parameters
