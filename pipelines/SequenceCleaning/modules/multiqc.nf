@@ -1,10 +1,9 @@
 process MULTIQC {
 
 	publishDir "${params.output}/multiqc", mode: 'copy'
-	container 'staphb/multiqc:latest'
 
 	input:
-	path(logs)
+	path input_dir
 
 	output:
 	path '*'

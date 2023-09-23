@@ -4,8 +4,6 @@ process FASTQC {
 
 	publishDir "${params.output}", mode: 'copy'
 
-	container 'staphb/fastqc:latest'
-
 	input:
 	tuple val(sample_id), path(reads)
 
